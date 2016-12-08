@@ -1,0 +1,535 @@
+/* css 初始化 */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    background: #fff;
+    font-size: 14px;
+    font-family: 微软雅黑, Verdana, Arial, Helvetica, sans-serif;
+}
+
+td, th, caption {
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+input, textarea, select, button {
+    font: 14px 微软雅黑, Verdana, Helvetica, Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+/*header样式*/
+.top{
+    height: 170px;
+    width:100%;
+}
+
+.topContent{
+    width: 1000px;
+    height:132px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo img{
+    float: left;
+    margin: 18px 10px 0 0;
+}
+
+.topTxt{
+    display: inline;
+    margin-top: 18px;
+    position: absolute;
+    top:0px;
+}
+
+.logo h1{
+    display: inline;
+    font-size: 40px;
+    border-bottom: 3px solid #000;
+
+}
+
+.logo h4{
+    font-size: 20px;
+    color:  #5b5b5b;
+    letter-spacing: 5px;
+    padding-top: 6px;
+}
+
+.tel{
+    float: right;
+}
+
+.tel .contact{
+    position: absolute;
+    top:12px;
+    right:30px;
+    font-size: 12px;
+}
+
+.contact a:hover{
+    color: #4b0080;
+}
+
+.hotline{
+    position: absolute;
+    top:68px;
+    right: 180px;
+    font-size: 18px;
+    color: #000;
+}
+
+.hotline span{
+    background:url("../images/tel.png")no-repeat left center;
+    padding-left: 50px;
+}
+
+
+.telNumber {
+    position: absolute;
+    top:52px;
+    right: 10px;
+    font-size: 24px;
+}
+
+.colorChange{
+    color: #fa0000;
+    letter-spacing: 1px;
+}
+
+.nav{
+    width: 100%;
+    height:40px;
+    background:url("../images/nav——bg.png") repeat-x ;
+}
+
+.navContent{
+    width:1000px;
+    height:30px;
+    margin: 0 auto;
+}
+
+.navContent ul{
+    padding: 0 26px;
+}
+
+.navContent li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color:#fff;
+}
+
+.navContent li a{
+    color: #fff;
+}
+
+.navContent li a:hover {
+    color: #4b0080;
+}
+
+.navContent .active a {
+    color: #4b0080;
+}
+
+.up{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+/*main样式*/
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.ad {
+    height: 348px;
+    overflow: hidden;
+    margin: 6px 0 8px;
+}
+
+.column{
+    width:726px;
+    height:300px;
+    border: 1px solid #d4d3d3;
+    margin-bottom: 8px;
+    float: left;
+}
+
+.tags{
+    width:726px;
+    height:30px;
+    background-color: #e8e7e7;
+    border-bottom: 1px solid #3a2100;
+    position: relative;
+
+}
+
+.tags span{
+    position: absolute;
+    left: 110px;
+    top:12px;
+    font-weight: 300;
+}
+
+.tags a{
+    color: #d88d2c;
+    font-size: 12px;
+    position: absolute;
+    right: 18px;
+    line-height: 30px;
+}
+
+.tags a:hover {
+    color: #4b0080;
+}
+
+.columnContent{
+    width:726px;
+    height:270px;
+    color: #3f3e3e;
+}
+
+.columnContent ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 6px;
+}
+
+.columnContent .bold{
+    font-weight: bold;
+}
+
+.sidebar{
+    width:268px;
+    height:300px;
+    border: 1px solid #d4d3d3;
+    margin-bottom: 8px;
+    float: right;
+    overflow: hidden;
+}
+
+.sidebarTags{
+    width:268px;
+    height:30px;
+    border-bottom: 1px solid #d4d3d3;
+    position: relative;
+    vertical-align: middle;
+}
+
+.sidebarTags span{
+    background: url("../images/pic.png") no-repeat 0px 1px;
+    position: absolute;
+    left: 8px;
+    padding-left: 36px;
+    line-height: 30px;
+}
+
+.sidebarTags a{
+    color: #d88d2c;
+    font-size: 12px;
+    position: absolute;
+    right: 18px;
+    line-height: 30px;
+}
+
+.sidebarTags a:hover {
+    color: #4b0080;
+}
+
+.sidebarContent{
+    text-indent: 2em;
+    font-size: 12px;
+    line-height: 21px;
+    color: #3f3e3e;
+}
+
+.sidebarContent img{
+    float: left;
+    margin: 12px 8px 12px 2px;
+}
+
+.sidebarTags .brandBg{
+    background: url("../images/pic.png") no-repeat 0px -30px;
+}
+
+.brandContent li{
+    float: left;
+    display: inline-block;
+    width: 134px;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.sidebarTags .encyBg{
+    background: url("../images/pic.png") no-repeat 0px -64px;
+}
+
+.ency li{
+    background: url("../images/little_pic.png")no-repeat 12px center;
+    line-height: 30px;
+    padding-left: 38px;
+}
+
+.ency li a{
+    font-size: 12px;
+    color: #605d5d;
+}
+
+.ency li a:hover{
+    color: #fd0000;
+}
+/*designer样式*/
+.designer{
+    width: 1000px;
+    height:264px;
+    border: 1px solid #d4d3d3;
+    margin-bottom: 8px;
+    clear: both;
+}
+
+.designerTags{
+    width:1000px;
+    height:30px;
+    border-bottom: 1px solid #d4d3d3;
+    position: relative;
+    vertical-align: middle;
+}
+
+.designerTags span{
+    background: url("../images/pic.png") no-repeat 0px -96px;
+    position: absolute;
+    left: 8px;
+    padding-left: 36px;
+    line-height: 30px;
+}
+
+.designerTags a{
+    color: #d88d2c;
+    font-size: 12px;
+    position: absolute;
+    right: 18px;
+    line-height: 30px;
+}
+
+.designerContent{
+    margin: 16px 14px;
+    width: 972px;
+    height:234px;
+    position: relative;
+    overflow: hidden;
+}
+.littleContent{
+    width: 920px;
+    height: 234px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+.littleContent{
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 28px;
+    width: 924px;
+    height: 200px;
+    background-color: #fff;
+}
+.contentList{
+    position: absolute;
+    width: 3000px;
+}
+
+.designerContent .aleft{
+    cursor: pointer;
+}
+
+.designerContent ul li{
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.designerContent .rightward{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    cursor: pointer;
+}
+/*goodness样式*/
+.goodness{
+    width:726px;
+    height:366px;
+    border: 1px solid #d4d3d3;
+    margin-bottom: 8px;
+    clear: both;
+    float: left;
+    position: relative;
+}
+
+.goodnessTitle{
+    display: block;
+    width:100%;
+    height: 40px;
+    background: url("../images/goodness_logo.jpg")no-repeat;
+}
+
+.goodnessContent{
+    background: url("../images/goodness_bg.jpg")no-repeat left bottom;
+}
+
+.goodnessContent ul{
+    background: url("../images/number.png")no-repeat 10px 0px;
+}
+
+.goodnessContent ul li{
+    line-height: 29px;
+    padding-left: 60px;
+}
+
+.goodnessContent h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.goodnessContent p{
+    font-size: 12px;
+    color: #5f5d5d;
+}
+
+
+.case{
+    height: 366px;
+}
+
+.sidebarTags .caseBg{
+    background: url("../images/pic.png") no-repeat 0px -124px;
+}
+
+.sidebarContent li{
+    background: url("../images/case.jpg") no-repeat 2px 8px;
+    padding:14px 12px 12px 130px;
+    text-align: left;
+    font-size: 12px;
+    text-indent: 0;
+}
+
+.sidebarContent li h6{
+    font-weight: bold;
+}
+
+.sidebarContent li p{
+    color: #938e8e;
+}
+
+.sidebarContent li a{
+    color: #ff9102;
+}
+/*prize样式*/
+.prize{
+    height:136px;
+    background-color: #dbdbdb;
+    clear: both;
+}
+
+.prize li img{
+    margin-top: 10px;
+}
+
+.prize li{
+    display: inline-block;
+    width: 160px;
+    vertical-align: top;
+    text-align: center;
+}
+/*friendLink样式*/
+.friendLink{
+    font-size: 12px;  
+}
+
+.friendLink ul li{
+    float: left;
+    margin: 10px 0 10px 14px;
+}
+
+.friendLink li a{
+    color: #757373;
+}
+
+.friendLink li a:hover{
+    color: #4b0080;
+}
+/*footer样式*/
+.footerTop{
+    clear: both;
+    width: 100%;
+    height:50px;
+    background-color: #303030;
+    text-align: center;
+    color: #757373;
+}
+
+.footerTop a{
+    line-height: 50px;
+    font-size: 12px;
+}
+
+.footerTop a:hover{
+    color: #4b0080;
+}
+
+.footerBottom{
+    width: 100%;
+    height:60px;
+    background-color: #000;
+    text-align: center;
+    color: #757373;
+
+}
+
+.footerBottom div{
+    font-size: 12px;
+    padding-top: 12px;
+}
